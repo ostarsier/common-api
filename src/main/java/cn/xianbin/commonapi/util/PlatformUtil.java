@@ -7,14 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 
 public class PlatformUtil {
 
-    /**
-     * @param request
-     * @return java.lang.String
-     * @throws
-     * @description: TODO 获取用户IP地址
-     * @author HANJUN
-     * @date 2020/3/5 18:33
-     */
     public static String getIPByrequest(HttpServletRequest request) {
         String ip = null;
 
